@@ -16,7 +16,7 @@ Authors:
 
 
 Notes:
-- For advance users/setups there is a more customizable exploit. See the `drupalgeddon2-customizable-beta.rb` section
+- For advance users/setups there is a more customizable exploit. See the `emzdrup-custom-beta.rb` section
 - Before opening an issue, please, read the troubleshooting section at the end. Thanks!
 
 
