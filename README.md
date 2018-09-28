@@ -1,4 +1,4 @@
-# CVE-2018-7600 | Drupal 8.5.x < 8.5.1 / 8.4.x < 8.4.6 / 8.x < 8.3.9 / 7.x? < 7.58 / < 6.x? - 'Drupalgeddon2' RCE (SA-CORE-2018-002)
+# CVE-2018-7600 | Drupal 8.5.x < 8.5.1 / 8.4.x < 8.4.6 / 8.x < 8.3.9 / 7.x? < 7.58 / < 6.x? - 'S4nji1-Drupalgeddon2' RCE (SA-CORE-2018-002)
 
 [Drupalggedon2 ~ https://github.com/emzkie2018/S4nji1-Drupalgeddon2/](https://github.com/emzkie2018/S4nji1-Drupalgeddon2/) _([https://www.drupal.org/sa-core-2018-002](https://www.drupal.org/sa-core-2018-002))_
 
@@ -160,14 +160,14 @@ proxy_port = 8080
 - - -
 
 
-#### Experimental but usable: drupalgeddon2-customizable-beta.rb
+#### Experimental but usable: emzdrup2-custom-beta.rb
 
-`emzdrup2.rb-custom-beta.rb` is intended for more advance users as its more customizable. It allows you to specify some more parameters as the PHP method to use (not only `system()` or `passthru()`) and the way to reach user/password form.
+`emzdrup2-custom-beta.rb` is intended for more advance users as its more customizable. It allows you to specify some more parameters as the PHP method to use (not only `system()` or `passthru()`) and the way to reach user/password form.
 
 Usage examples:
 
 ```
-$ ruby emzdrup2.rb-custom-beta.rb https://example.com 7 id passthru 0
+$ ruby emzdrup2-custom-beta.rb https://example.com 7 id passthru 0
 
 1st parameter: Target URL
 2nd parameter: Drupal version (e.g. 7 or 8)
