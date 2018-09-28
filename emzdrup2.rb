@@ -174,8 +174,8 @@ end
 
 # Quick how to use
 if ARGV.empty?
-  puts "Usage: ruby drupalggedon2.rb <target>"
-  puts "       ruby drupalgeddon2.rb https://example.com"
+  puts "Usage: ruby emzdrup2.rb <target>"
+  puts "       ruby emzdrup2.rb https://example.com"
   exit
 end
 # Read in values
